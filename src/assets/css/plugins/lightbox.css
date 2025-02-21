@@ -1,85 +1,5 @@
 @charset "UTF-8";
-/**************************************
- CSS Index  
-****************************
 
-/--- Default Styles -----/
-
-01.Variables
-02.Mixins
-03.Reset
-04.Typography
-05.Extend
-06.Animations
-07.Shortcode
-08.Spacing
-09.Common
-10.Forms
-11.Sal
-12.Text Animation
-13.Themebg
-
-/--- Header Styles -----/
-
-01.Headerdefault
-02.Nav
-03.Header Top
-04.HeaderTopBar
-05.Mobilemenu
-
-/--- Elements -----/
-
-01.Breadcrumb
-02.Sectiontitle
-03.Button
-04.Service
-05.Card
-06.Counter
-07.Progressbar
-08.Accordion
-09.Social Share
-10.Team
-11.Portfolio
-12.Testimonial
-13.Slickslide
-14.Timeline
-15.Call to Action
-16.Tab
-17.Pricing
-18.Split
-19.Vedio
-20.Gallery
-21.Contact
-22.Brand
-23.404
-24.Advance Tab
-25.Advancepricing
-26.Contact Form
-27.Swicher
-28.Backto Top
-29.About
-30.Newsletter
-
-/--- Blog -----/
-01.Blog
-02.Sidebar
-03.Blog Details
-
-/--- Footer -----/
-01.Footer
-02.Copyright
-
-/--- Template -----/
-01.Banner
-02.Portfoliodetails
-03.Splash
-04.Lightmode
-
-***************************************/
-/**************************************
-    Default Styles
-***************************************/
-/*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
   --color-primary: #059dff;
@@ -170,9 +90,7 @@
   --h6: 16px;
 }
 
-/**
- * Reset Styels
- */
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -8816,7 +8734,7 @@ body.sal-disabled [data-sal|="fade"] {
 }
 
 [data-sal|="slide"] {
-  opacity: 0;
+  opacity: 1;
   transition-property: opacity, transform;
 }
 
