@@ -1,6 +1,7 @@
 import React from "react";
 import "./assets/css/vendor/bootstrap.min.css";
 import "./assets/css/plugins/lightbox.css";
+
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import DemoSec from "./components/DemoSec";
@@ -12,25 +13,23 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <main className="page-wrapper">
-        <Header />
-        <HeroSection />
+    <main className="page-wrapper">
+      <Header />
+      <HeroSection />
 
-        <div class="rbt-separator-mid">
-          <div class="container">
-            <hr class="rbt-separator m-0" />
-          </div>
+      <div className="rbt-separator-mid">
+        <div className="container">
+          <hr className="rbt-separator m-0" />
         </div>
+      </div>
 
-        <DemoSec />
-        <AllOtherPages />
-        <Features />
-        <FeedBack />
-        <FAQ />
-        <Footer />
-      </main>
-    </>
+      <DemoSec />
+      <AllOtherPages />
+      <Features />
+      <FeedBack />
+      <FAQ />
+      <Footer />
+    </main>
   );
 }
 
